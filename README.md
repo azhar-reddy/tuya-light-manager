@@ -20,6 +20,21 @@ pip3 install tuya-iot-py-sdk
 ```
 
 
+<h3>Fill the details:</h3>
+
+```
+# ACCESS_ID = # your_access_id
+# ACCESS_KEY = # your_access_key
+# USERNAME = # your_username
+# PASSWORD = # your_password
+# ASSET_ID = # your_asset_id
+# DEVICE_ID = # your_device_id
+# ENDPOINT = "https://openapi.tuyacn.com"
+```
+
+
+
+
 <h3>Demo code:</h3>
 
 ```Python
@@ -98,17 +113,7 @@ while True:
 
 ```
 
-<h3>Fill the details:</h3>
 
-```
-# ACCESS_ID = # your_access_id
-# ACCESS_KEY = # your_access_key
-# USERNAME = # your_username
-# PASSWORD = # your_password
-# ASSET_ID = # your_asset_id
-# DEVICE_ID = # your_device_id
-# ENDPOINT = "https://openapi.tuyacn.com"
-```
 
 <h3>Procedure:</h3>
 
