@@ -1,4 +1,4 @@
-# tuya-cloud-led
+# tuya-light-manager
 
 This project is developed using Tuya SDK, which enables you to quickly develop smart devices, branded APP, cloud development project, etc.
 
@@ -130,8 +130,6 @@ while True:
 #### Step 3: Request access to API calls
 Go to <a href="https://iot.tuya.com/cloud/appinfo/cappId/setting" target="_blanck">Cloud -> API Group</a> and enable **Authorization management**, **Device Management** and **Device Control**.
 
-<br>
-<h3>Note:</h3>
-In case of errors comment on this project.
+
 
 
