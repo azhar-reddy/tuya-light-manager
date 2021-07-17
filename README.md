@@ -91,14 +91,14 @@ class tuyaDeviceListener(TuyaDeviceListener):
 deviceManager.add_device_listener(tuyaDeviceListener())
 
 # Turn on the light
-# deviceManager.sendCommands(device.id, [{'code': 'switch_led', 'value': True}])
-# time.sleep(1)
-# print('status: ', device.status)
+deviceManager.sendCommands(device.id, [{'code': 'switch_led', 'value': True}])
+time.sleep(1)
+print('status: ', device.status)
 
 # # Turn off the light
-# deviceManager.sendCommands(device.id, [{'code': 'switch_led', 'value': False}])
-# time.sleep(1)
-# print('status: ', device.status)
+deviceManager.sendCommands(device.id, [{'code': 'switch_led', 'value': False}])
+time.sleep(1)
+print('status: ', device.status)
 
 flag = True
 while True:
